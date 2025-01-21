@@ -1,0 +1,82 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input, .status-select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-container {
+  margin-top: 30px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.task-table th, .task-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.even-row {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #fff;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complete {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.complete:hover {
+  background-color: #218838;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete:hover {
+  background-color: #c82333;
+}
